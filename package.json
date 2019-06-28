@@ -1,0 +1,29 @@
+{
+  "name": "clase_27",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "start:front": "browser-sync --files *.html,css/*.css,js/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VictorLlamas/clase_27.git"
+  },
+  "keywords": [],
+  "author": "Victor Llamas <victorllamas@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/VictorLlamas/clase_27/issues"
+  },
+  "homepage": "https://github.com/VictorLlamas/clase_27#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.26.7"
+  }
+}
